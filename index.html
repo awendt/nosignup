@@ -48,22 +48,27 @@ Click on a category to view it.
   <dd>Again, create an event page and send your guests the URL.
       Provides a custom URL, global email address for all guests and RSS feed, but closed source and English-only interface.</dd>
 </dl>
-			
+
 </div>
-		
+
 <div class="section">
 
 <h2><a name="file-sharing" href="#file-sharing">File sharing</a></h2>
 
 <div class="contents">
-			
+
 <dl>
   <dt><a href="http://drop.io/">Drop.io</a></dt>
   <dd><q>The simplest way to share online</q></dd>
   <dd>Drop.io lets you share files by web, e-mail, phone. Create a <q>drop</q> and start sharing. 
-      Drops are protected from search engines. Requires Flash 9.</dd>
+      Drops are protected from search engines. Requires Flash 9.
+      There's also a <a href="http://static.drop.io/howto/dragdrop/index.html">Firefox extension</a>.</dd>
+  <dt><a href="http://share4pic.com/">share4pic</a></dt>
+  <dd><q>Instant Image Sharing Service</q></dd>
+  <dd>Free image hosting service. No custom URL but cookie detection &mdash;
+      once you delete the cookies or switch computers, you can't access your stuff anymore.</dd>
 </dl>
-			
+
 </div>
 
 <div class="section">
@@ -71,22 +76,22 @@ Click on a category to view it.
 <h2><a name="reminders" href="#reminders">Reminders</a></h2>
 
 <div class="contents">
-			
+
 <dl>
   <dt><a href="http://www.ohdontforget.com/">Oh don't forget...</a></dt>
   <dd><q>SMS text message reminder app, with ease.</q></dd>
   <dd>Send reminders to a specific cell number to get reminded about anything.</dd>
 </dl>
-			
+
 </div>
 
-<div>					
+<div>
 <div class="expand_collapse_links">
   <a href="#" class="expand_all">Expand all</a> |
   <a href="#" class="collapse_all">Collapse all</a>
 </div>
 </div>
-    
+
 <div class="footer">
 
 This site is built and maintained by <a href="http://github.com/awendt">André</a>.<br />
@@ -119,7 +124,7 @@ free to send patches if you want to improve it. <br/>
         $('.section .contents').hide()
         showSectionsForSCM(this.innerHTML)
         document.location.hash = this.innerHTML
-      }) 
+      })
 
       if (document.location.hash) {
         var anchor = document.location.hash.substring(1)
